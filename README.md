@@ -162,7 +162,7 @@ If an error occurs on the server, a 500 (Internal Server Error) code will be ret
 
 ## Bulk Load and Transfer
 
-There are cases that require bulk updates of data. For example, user with role Manager may partially approve employee's ttimesheet. It will require client to update multiple activities of a timesheet. While this operation can be completed via a series of individual transactions, it would be less taxing on network traffic and overall execution time to execute a bulk request that would perform the entire batch. [Facebook Batch API](https://developers.facebook.com/docs/graph-api/making-multiple-requests) is one of the example of implementation of bulk operations. Client sends array of serialized requests, for example
+There are cases that require bulk updates of data. For example, user with role Manager may partially approve employee's ttimesheet. It will require client to update multiple activities of a timesheet. While this operation can be completed via a series of individual transactions, it would be less taxing on network traffic and overall execution time to execute a bulk request that would perform the entire batch. [Facebook Batch API](https://developers.facebook.com/docs/graph-api/making-multiple-requests) is one of the examples of implementation of bulk operations. Client sends array of serialized requests, for example
 
 ```json
 [
@@ -178,7 +178,7 @@ There are cases that require bulk updates of data. For example, user with role M
 ]
 ```
 
-Once both operations have been completed, server sends a response which encapsulates the result of all the operations. For each operation, the response includes a status code, header information, and the body. These are equivalent to the response you could expect from each operation if performed as raw requests against the Graph API. The body field contains a string encoded JSON object. For the above request, the expected response would be of the form:
+Once both operations have been completed, server sends a response which encapsulates the result of all the operations. For each operation, the response includes a status code, header information, and the body. These are equivalent to the response you could expect from each operation if performed as raw requests against the API. The body field contains a string encoded JSON object. For the above request, the expected response would be of the form:
 
 ```json
 [
