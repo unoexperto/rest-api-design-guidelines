@@ -212,3 +212,8 @@ You should make versioning mandatory in the URL at the highest scope (major vers
 * [How To Do RESTful Partial Updates](http://bitworking.org/news/296/How-To-Do-RESTful-Partial-Updates)
 * [Best practice for partial updates in a RESTful service](http://stackoverflow.com/questions/2443324/best-practice-for-partial-updates-in-a-restful-service)
 * [How to design a REST API](http://blog.octo.com/en/design-a-rest-api/)
+* [On choosing a hypermedia type for your API - HAL, JSON-LD, Collection+JSON, SIREN, Oh My!](http://sookocheff.com/post/api/on-choosing-a-hypermedia-format/)
+* [HyperRosetta](http://securesoftwaredev.com/2014/06/23/hyperrosetta/)
+* [JSON Schema](http://json-schema.org/)
+* [JSON API](http://jsonapi.org/)
+* [JSON Hyper-Schema: Hypertext definitions for JSON Schema](http://json-schema.org/latest/json-schema-hypermedia.html)
