@@ -205,6 +205,7 @@ You should make versioning mandatory in the URL at the highest scope (major vers
 
 # Used resources
 
+* [REST API Design with Brian Sletten](https://youtu.be/HW9wWZHWhnI)
 * ["How to Design a Good API and Why it Matters"](http://lcsd05.cs.tamu.edu/slides/keynote.pdf) by Joshua Bloch (Principal Software Engineer at Google)
 * [Ed-Fi® REST API Design Guidelines](http://www.ed-fi.org/assets/2013/11/Public-Ed-Fi-REST-API-Design-Guidelines-1.2.pdf)
 * [Richardson Maturity Model](http://martinfowler.com/articles/richardsonMaturityModel.html)
